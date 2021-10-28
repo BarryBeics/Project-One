@@ -4,7 +4,39 @@ body {
     font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container {
-    background-color: aquamarine;
-    min-height: 200px;
+footer {
+    background-color: 3b3b38;
+    height: 30px;
 }
+
+.logo {
+    background-color: rgba(121, 180, 183, 0.5);
+}
+
+.nav {
+    background-color: darkcyan;
+}
+
+.graphic {
+    background-color: darkgoldenrod;
+}
+
+.social {
+    background-color: darkseagreen;
+}
+
+
+
+#right-triangle {
+    width: 0;
+    height: 0;
+    border-top: 200px solid rgba(121, 180, 183, 0.5);
+    border-left: 250px solid transparent;
+  }
+
+#left-triangle {
+    width: 0;
+    height: 0;
+    border-bottom: 460px solid rgba(121, 180, 183, 0.5);
+    border-right: 250px solid transparent;
+  }
