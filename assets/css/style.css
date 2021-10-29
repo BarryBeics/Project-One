@@ -1,28 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
 
-body {
-    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
-}
 
-footer {
-    background-color: 3b3b38;
-    height: 30px;
-}
+/* ----------------------------------------------- Colours -----*/
 
-.logo {
-    background-color: rgba(121, 180, 183, 0.5);
-}
-
-.nav {
-    background-color: darkcyan;
-}
-
-.graphic {
-    background-color: darkgoldenrod;
-}
-
-.social {
-    background-color: darkseagreen;
+.site-colour {
+    background-color: rgba(121, 180, 183, 0.8);
 }
 
 
@@ -30,13 +12,122 @@ footer {
 #right-triangle {
     width: 0;
     height: 0;
-    border-top: 200px solid rgba(121, 180, 183, 0.5);
+    border-top: 200px solid rgba(121, 180, 183, 0.8);
     border-left: 250px solid transparent;
+    float: right;
   }
 
 #left-triangle {
     width: 0;
     height: 0;
-    border-bottom: 460px solid rgba(121, 180, 183, 0.5);
+    border-bottom: 460px solid rgba(121, 180, 183, 0.8);
     border-right: 250px solid transparent;
   }
+
+  .social {
+    background-color: darkseagreen;
+}
+
+
+body {
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/* ----------------------------------------------- Header -----*/
+
+footer {
+    background-color: 3b3b38;
+    height: 30px;
+}
+
+
+
+.logo {
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 10px;
+    height: 150px;
+    width: 300px;
+    color: #f8f0df;
+
+}
+
+.rotate {
+
+    transform: rotate(-90deg);
+    /* Legacy vendor prefixes that you probably don't need... */
+    /* Safari */
+    -webkit-transform: rotate(-90deg);
+    /* Firefox */
+    -moz-transform: rotate(-90deg);
+    /* IE */
+    -ms-transform: rotate(-90deg);
+    /* Opera */
+    -o-transform: rotate(-90deg);
+    /* Internet Explorer */
+    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
+  
+}
+
+
+#graphic {
+    background: url("../images/bazza-at-desk.png") ;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 300px;
+    min-width: 300px;
+    float: right;
+}
+
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+.menucontainer {
+    font-size: 0;
+}
+
+#nav li {
+    font-size: 14px;
+    padding: 0px;
+}
+
+.menuitem {
+    height: 80px;
+    padding: 0;
+    text-align: center;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #3b3b38;
+    height: 80px;
+}
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #f8f0df;
+    font-size: 22px;
+}
+
+.menuitem a span {
+    display: block;
+    width: 100%;
+    padding-top: 6px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+/* ----------------------------------------------- Hover.css -----*/
+
+.hvr-underline-from-center:before {
+    background-color: rgba(0, 0, 0, 0.3);
+
+}
