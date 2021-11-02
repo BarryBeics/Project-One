@@ -1,18 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
 
 
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
+.container-xl {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
 /* ----------------------------------------------- Colours -----*/
 
 .site-colour {
-    background-color: rgba(121, 180, 183, 0.8);
+    background-color: rgb(121, 180, 183);
 }
-
-
 
 #right-triangle {
     width: 0;
     height: 0;
-    border-top: 200px solid rgba(121, 180, 183, 0.8);
+    border-top: 200px solid rgb(121, 180, 183);
     border-left: 250px solid transparent;
     float: right;
   }
@@ -20,67 +27,45 @@
 #left-triangle {
     width: 0;
     height: 0;
-    border-bottom: 460px solid rgba(121, 180, 183, 0.8);
+    border-bottom: 460px solid rgb(121, 180, 183);
     border-right: 250px solid transparent;
   }
 
-  .social {
-    background-color: darkseagreen;
+/* ----------------------------------------------- Special paddings/margins/text -----*/
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    margin: 0;
+} 
+
+h5 {
+    font-size: 16px;
 }
 
+.uppercase {
+    text-transform: uppercase;
+    }
 
-body {
-    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
+.general-sub {
+    font-family: "Open Sans", sans-serif; 
 }
 
+.inline-block {
+    display: inline-block;
+}
 
 /* ----------------------------------------------- Header -----*/
-
-footer {
-    background-color: 3b3b38;
-    height: 30px;
-}
-
-
-
-.logo {
-    font-weight: 600;
+.inner{
     text-transform: uppercase;
-    letter-spacing: 3px;
-    padding: 10px;
-    height: 150px;
-    width: 300px;
-    color: #f8f0df;
-
-}
-
-.rotate {
-
-    transform: rotate(-90deg);
-    /* Legacy vendor prefixes that you probably don't need... */
-    /* Safari */
-    -webkit-transform: rotate(-90deg);
-    /* Firefox */
-    -moz-transform: rotate(-90deg);
-    /* IE */
-    -ms-transform: rotate(-90deg);
-    /* Opera */
-    -o-transform: rotate(-90deg);
-    /* Internet Explorer */
-    filter: progid:DXImageTransform.Microsoft.BasicImage(rotation=3);
-  
-}
-
-
-#graphic {
-    background: url("../images/bazza-at-desk.png") ;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 300px;
-    min-width: 300px;
-    float: right;
-}
-
+    font-size: 1.5rem;
+    padding:0.5rem;
+    
+    text-align: center;
+    
+  }
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -88,6 +73,10 @@ footer {
 
 .menucontainer {
     font-size: 0;
+}
+
+#nav {
+    z-index: 1;
 }
 
 #nav li {
@@ -129,5 +118,81 @@ footer {
 
 .hvr-underline-from-center:before {
     background-color: rgba(0, 0, 0, 0.3);
-
 }
+
+/* ----------------------------------------------- Footer -----*/
+
+footer {
+    background-color: #3b3b38;
+    color: #f8f0df;
+    padding-top: 10px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.footer-icon i {
+    font-size: 25px;
+    color: #f8f0df;
+    text-align: center;
+    padding: 7px 20px;
+    width: 120px;
+}
+
+.cv-pdf i:hover{
+    color:rgb(121, 180, 183);
+}
+
+.linkedin i:hover{
+    color:#2867b2;
+}
+
+.facebook i:hover{
+    color:#3c5a99;
+}
+
+.twitter i:hover{
+    color:#1DA1F2;
+}
+
+.github i:hover{
+    color:#3c5a99;
+}
+
+
+
+/* ----------------------------------------------- Media Queries -----*/
+
+@media only screen and (min-width: 768px) {
+    .outer{
+        writing-mode: tb-rl;
+        width:50px;
+        display:flex;
+        align-items:center;
+        justify-content: flex-end;
+      }
+      .inner{
+        transform: rotate(180deg);
+        text-transform: uppercase;
+        font-size: 1.5rem;
+        transition: transform 1s ease-in-out;
+        padding:1.5rem;
+      }
+
+    #graphic {
+        background-size: 250px 250px;
+        min-width: 250px;
+        background: url("../images/barry-at-desk.png") ;
+        background-repeat: no-repeat;
+        height: 100%;
+    }
+
+    .wallpaper {
+        background: url("../images/wallpaper.png") ;
+        background-repeat: repeat-x;
+    }
+    
+}
+
+
