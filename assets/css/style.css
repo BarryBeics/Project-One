@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&family=Open+Sans:wght@200..900');
+
 
 
 body {
@@ -39,7 +40,24 @@ h3,
 h4,
 h5 {
     margin: 0;
-} 
+
+}
+
+
+
+.sub-heading {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(121, 180, 183);
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.main-heading {
+  font-size: 20px;
+  padding: 15px;
+  font-weight: 700;
+}
 
 h5 {
     font-size: 16px;
@@ -50,11 +68,16 @@ h5 {
     }
 
 .general-sub {
-    font-family: "Open Sans", sans-serif; 
+    font-family: "Open Sans", sans-serif
 }
 
 .inline-block {
     display: inline-block;
+}
+
+.section-column {
+  padding: 0px;
+  float: none;
 }
 
 /* ----------------------------------------------- Header -----*/
@@ -62,9 +85,8 @@ h5 {
     text-transform: uppercase;
     font-size: 1.5rem;
     padding:0.5rem;
-    
     text-align: center;
-    
+
   }
 
 .list-inline-item:not(:last-child) {
@@ -110,7 +132,7 @@ h5 {
     padding-top: 6px;
     text-align: center;
     font-size: 15px;
-    font-weight: 700;
+    font-weight: 300;
     letter-spacing: 3px;
 }
 
@@ -160,8 +182,6 @@ footer p {
     color:#3c5a99;
 }
 
-
-
 /* ----------------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 768px) {
@@ -192,7 +212,5 @@ footer p {
         background: url("../images/wallpaper.png") ;
         background-repeat: repeat-x;
     }
-    
+
 }
-
-
