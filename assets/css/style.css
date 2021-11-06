@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200..900&family=Open+Sans:wght@200..900');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@200..900&display=swap');
 
 
 body {
-    font-family: "Montserrat", sans-serif;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container-xl {
@@ -15,6 +14,10 @@ body {
 
 .site-colour {
     background-color: rgb(121, 180, 183);
+}
+
+.contrast-panel {
+    background-color: rgb(227, 230, 230);
 }
 
 #right-triangle {
@@ -32,6 +35,30 @@ body {
     border-right: 250px solid transparent;
   }
 
+.selected:before{
+    color: #3b3b38;
+} 
+
+.cv-pdf i:hover{
+    color:rgb(121, 180, 183);
+}
+
+.linkedin i:hover{
+    color:#2867b2;
+}
+
+.facebook i:hover{
+    color:#3c5a99;
+}
+
+.twitter i:hover{
+    color:#1DA1F2;
+}
+
+.github i:hover{
+    color:#3c5a99;
+}
+
 /* ----------------------------------------------- Special paddings/margins/text -----*/
 
 h1,
@@ -40,36 +67,36 @@ h3,
 h4,
 h5 {
     margin: 0;
-
-}
-
-
-
-.sub-heading {
-  font-size: 18px;
-  font-weight: 400;
-  color: rgb(121, 180, 183);
-  padding-top: 10px;
-  padding-bottom: 10px;
-}
-
-.main-heading {
-  font-size: 20px;
-  padding: 15px;
-  font-weight: 700;
+    color: #3b3b38;
 }
 
 h5 {
-    font-size: 16px;
+    font-size: 14px;
+    color: #f8f0df;;
+}
+
+p {
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.main-heading {
+    font-size: 20px;
+    padding: 25px 0px 10px 15px;
+    font-weight: 600;
+  }
+
+.sub-heading {
+  font-size: 21px;
+  font-weight: 500;
+  color: rgb(95, 142, 145);
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 .uppercase {
     text-transform: uppercase;
     }
-
-.general-sub {
-    font-family: "Open Sans", sans-serif
-}
 
 .inline-block {
     display: inline-block;
@@ -86,7 +113,6 @@ h5 {
     font-size: 1.5rem;
     padding:0.5rem;
     text-align: center;
-
   }
 
 .list-inline-item:not(:last-child) {
@@ -162,26 +188,6 @@ footer p {
     width: 120px;
 }
 
-.cv-pdf i:hover{
-    color:rgb(121, 180, 183);
-}
-
-.linkedin i:hover{
-    color:#2867b2;
-}
-
-.facebook i:hover{
-    color:#3c5a99;
-}
-
-.twitter i:hover{
-    color:#1DA1F2;
-}
-
-.github i:hover{
-    color:#3c5a99;
-}
-
 /* ----------------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 768px) {
@@ -213,4 +219,38 @@ footer p {
         background-repeat: repeat-x;
     }
 
+}
+/* ----------------------------------------------- Personal Info -----*/
+
+.personal-info-item {
+    margin-bottom: 18px;
+    display: block;
+    clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.personal-info-item .key p,
+.personal-info-item .value p {
+    margin: 0;
+}
+
+.personal-info-item .key {
+    width: 30%;
+    margin-right: 19px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+.personal-info-item .key p {
+    font-weight: 500;
+}
+
+.personal-info-item .value {
+    position: relative;
+    width: 60%;
 }
