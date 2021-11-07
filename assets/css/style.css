@@ -367,3 +367,17 @@ img {
     width: 80px;
     height: 80px;
 }
+
+/* ------------------------------------ortfolio section */
+
+.portfolio {
+    text-align: center;
+    display: inline-block;
+    padding: 20px;
+}
+
+.portfolio > img {
+    width: 350px;
+    height: 228px;
+    
+}
