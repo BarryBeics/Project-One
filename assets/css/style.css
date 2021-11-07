@@ -17,7 +17,7 @@ body {
 }
 
 .contrast-panel {
-    background-color: rgb(227, 230, 230);
+    background-color: rgba(5, 5, 5, 0.3);
 }
 
 #right-triangle {
@@ -91,7 +91,7 @@ p {
   font-weight: 500;
   color: rgb(95, 142, 145);
   padding-top: 10px;
-  padding-bottom: 5px;
+  padding-bottom: 15px;
 }
 
 .uppercase {
@@ -253,4 +253,48 @@ footer p {
 .personal-info-item .value {
     position: relative;
     width: 60%;
+}
+
+/* ----------------------------------------------- Contact Form-----*/
+
+.contact-info-item {
+    margin-bottom: 18px;
+    display: block;
+    clear: both;
+}
+
+.contact-info-item .key,
+.contact-info-item .value {
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.contact-info-item .key p,
+.contact-info-item .value p {
+    margin: 0;
+}
+
+.contact-info-item .key {
+    width: 25%;
+    margin-right: 19px;
+    margin-top: 2px;
+    vertical-align: top;
+}
+
+.contact-info-item .key p {
+    font-weight: 400;
+}
+
+.contact-info-item .value {
+    position: relative;
+    width: 65%;
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #f8f0df;
+    font-weight: 500;
+    width: 40%;
+    background-color: rgb(95, 142, 145);
 }
