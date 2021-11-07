@@ -24,7 +24,7 @@ body {
     width: 0;
     height: 0;
     border-top: 200px solid rgb(121, 180, 183);
-    border-left: 250px solid transparent;
+    border-left: 375px solid transparent;
     float: right;
   }
 
@@ -32,7 +32,21 @@ body {
     width: 0;
     height: 0;
     border-bottom: 460px solid rgb(121, 180, 183);
-    border-right: 250px solid transparent;
+    border-right: 280px solid transparent;
+  }
+
+  #left-triangle-short {
+    width: 0;
+    height: 0;
+    border-bottom: 360px solid rgb(121, 180, 183);
+    border-right: 280px solid transparent;
+  }
+
+  #left-triangle-long {
+    width: 0;
+    height: 0;
+    border-bottom: 562px solid rgb(121, 180, 183);
+    border-right: 280px solid transparent;
   }
 
 .selected:before{
@@ -86,6 +100,7 @@ h5 {
 p {
     font-size: 15px;
     font-weight: 200;
+    color: #3b3b38;
 }
 
 .main-heading {
@@ -186,6 +201,7 @@ footer {
 
 footer p {
     font-size: 14px;
+    color: #f8f0df;
 }
 
 .footer-icon i {
@@ -215,12 +231,28 @@ footer p {
       }
 
     #graphic {
-        background-size: 250px 250px;
         min-width: 250px;
         background: url("../images/barry-at-desk.png") ;
         background-repeat: no-repeat;
         height: 100%;
     }
+    #steam {
+      min-width: 24px;
+      background: url("../images/steam.gif") ;
+      background-repeat: no-repeat;
+      background-size: 24px 24px;
+
+    }
+
+    .talking-head {
+        position: relative;
+        top: 34px;
+        left: 21px;
+        height: 63px;
+        width: 77px;
+        background: url("../images/talkingHead.gif") ;
+        background-repeat: no-repeat;
+      }
 
     .wallpaper {
         background: url("../images/wallpaper.png") ;
@@ -231,7 +263,7 @@ footer p {
 /* ----------------------------------------------- Personal Info -----*/
 
 .personal-info-item {
-    margin-bottom: 18px;
+    margin-bottom: 38px;
     display: block;
     clear: both;
 }
@@ -245,10 +277,11 @@ footer p {
 .personal-info-item .key p,
 .personal-info-item .value p {
     margin: 0;
+    font-size: 14px;
 }
 
 .personal-info-item .key {
-    width: 30%;
+    width: 25%;
     margin-right: 19px;
     margin-top: 2px;
     vertical-align: top;
@@ -260,13 +293,13 @@ footer p {
 
 .personal-info-item .value {
     position: relative;
-    width: 60%;
+    width: 65%;
 }
 
 /* ----------------------------------------------- Contact Form-----*/
 
 .contact-info-item {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
     display: block;
     clear: both;
 }
@@ -296,6 +329,27 @@ footer p {
 .contact-info-item .value {
     position: relative;
     width: 65%;
+}
+
+.custom-control-input:checked~.custom-control-label::before {
+    border-color: rgb(95, 142, 145);
+    background-color: rgb(95, 142, 145);
+}
+
+.custom-control-label::before {
+    border-radius: 30%;
+}
+
+.custom-control-label::before {
+    left : 5px;
+}
+
+.custom-control-label {
+    padding-left: 35px;
+}
+
+.form-control {
+    height: calc(18px + 0.75rem + 2px);
 }
 
 button[type="submit"] {
@@ -356,6 +410,12 @@ button[type="submit"] {
 }
 
 /* ------------------------------------skill section */
+
+.content-container {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
 
 .skill {
     text-align: center;
