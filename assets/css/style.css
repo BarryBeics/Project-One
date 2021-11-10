@@ -3,11 +3,20 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: #525250;
 }
 
-.container-xl {
-    padding-left: 0px;
-    padding-right: 0px;
+
+section {
+    background-color: #f8f0df;
+}
+
+.content-section {
+    clear: left;
+    /* background: url("/assets/images/work-space.png"); */
+    background-size: cover;
+    background-position: center;
+    height: 900px;
 }
 
 /* ----------------------------------------------- Colours -----*/
@@ -17,60 +26,32 @@ body {
 }
 
 .contrast-panel {
-    background-color: #f8f0df;
+    background: rgba(60,60,60, 0.6);
 }
 
-#right-triangle {
-    width: 0;
-    height: 0;
-    border-top: 200px solid rgb(121, 180, 183);
-    border-left: 375px solid transparent;
-    float: right;
-  }
 
-#left-triangle {
-    width: 0;
-    height: 0;
-    border-bottom: 460px solid rgb(121, 180, 183);
-    border-right: 280px solid transparent;
-  }
-
-  #left-triangle-short {
-    width: 0;
-    height: 0;
-    border-bottom: 360px solid rgb(121, 180, 183);
-    border-right: 280px solid transparent;
-  }
-
-  #left-triangle-long {
-    width: 0;
-    height: 0;
-    border-bottom: 562px solid rgb(121, 180, 183);
-    border-right: 280px solid transparent;
-  }
-
-.selected:before{
+.selected:before {
     color: #3b3b38;
-} 
-
-.cv-pdf i:hover{
-    color:rgb(121, 180, 183);
 }
 
-.linkedin i:hover{
-    color:#2867b2;
+.cv-pdf i:hover {
+    color: rgb(121, 180, 183);
 }
 
-.facebook i:hover{
-    color:#3c5a99;
+.linkedin i:hover {
+    color: #2867b2;
 }
 
-.twitter i:hover{
-    color:#1DA1F2;
+.facebook i:hover {
+    color: #3c5a99;
 }
 
-.github i:hover{
-    color:#3c5a99;
+.twitter i:hover {
+    color: #1DA1F2;
+}
+
+.github i:hover {
+    color: #3c5a99;
 }
 
 /* ----------------------------------------------- Special paddings/margins/text -----*/
@@ -83,6 +64,7 @@ h5 {
     margin: 0;
     color: #3b3b38;
 }
+
 h3 {
     font-size: 14px;
     color: rgb(95, 142, 145);
@@ -92,9 +74,11 @@ h4 {
     font-size: 14px;
     padding: 5px;
 }
+
 h5 {
     font-size: 14px;
-    color: #f8f0df;;
+    color: #f8f0df;
+    ;
 }
 
 p {
@@ -107,36 +91,36 @@ p {
     font-size: 20px;
     padding: 25px 0px 10px 15px;
     font-weight: 600;
-  }
+}
 
 .sub-heading {
-  font-size: 21px;
-  font-weight: 500;
-  color: rgb(95, 142, 145);
-  padding-top: 10px;
-  padding-bottom: 15px;
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(95, 142, 145);
+    padding-top: 10px;
+    padding-bottom: 15px;
 }
 
 .uppercase {
     text-transform: uppercase;
-    }
+}
 
 .inline-block {
     display: inline-block;
 }
 
 .section-column {
-  padding: 0px;
-  float: none;
+    padding: 0px;
+    float: none;
 }
 
 /* ----------------------------------------------- Header -----*/
-.inner{
+.inner {
     text-transform: uppercase;
     font-size: 1.5rem;
-    padding:0.5rem;
+    padding: 0.5rem;
     text-align: center;
-  }
+}
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -215,51 +199,75 @@ footer p {
 /* ----------------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 768px) {
-    .outer{
+    .outer {
         writing-mode: tb-rl;
-        width:50px;
-        display:flex;
-        align-items:center;
+        width: 50px;
+        display: flex;
+        align-items: center;
         justify-content: flex-end;
-      }
-      .inner{
+    }
+
+    .inner {
         transform: rotate(180deg);
         text-transform: uppercase;
         font-size: 1.5rem;
         transition: transform 1s ease-in-out;
-        padding:1.5rem;
-      }
+        padding: 1.5rem;
+    }
 
-    #graphic {
+    #header-graphic {
         min-width: 250px;
-        background: url("../images/barry-at-desk.png") ;
+        background: url("../images/barry-at-desk.png");
         background-repeat: no-repeat;
         height: 100%;
     }
-    #steam {
-      min-width: 24px;
-      background: url("../images/steam.gif") ;
-      background-repeat: no-repeat;
-      background-size: 24px 24px;
 
-    }
 
-    .talking-head {
-        position: relative;
-        top: 34px;
-        left: 21px;
-        height: 63px;
-        width: 77px;
-        background: url("../images/talkingHead.gif") ;
-        background-repeat: no-repeat;
-      }
 
     .wallpaper {
-        background: url("../images/wallpaper.png") ;
+        background: url("../images/wallpaper.png");
         background-repeat: repeat-x;
     }
 
+
 }
+/* ----------------------------------------------- Landing Page talking character -----*/
+
+#graphic {
+    width: 500px;
+    background: url("../images/barry-at-desk.png");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+#steam {
+    min-width: 24px;
+    background: url("../images/steam.gif");
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+
+}
+
+.talking-head {
+    position: relative;
+    top: 34px;
+    left: 21px;
+    height: 63px;
+    width: 77px;
+    background: url("../images/talkingHead.gif");
+    background-repeat: no-repeat;
+}
+
+.header-wallpaper,
+.wallpaper {
+    background: url("../images/wallpaper.png");
+    background-repeat: repeat-x;
+}
+
+.header-wallpaper {
+    min-height: 400px;
+}
+
 /* ----------------------------------------------- Personal Info -----*/
 
 .personal-info-item {
@@ -296,37 +304,48 @@ footer p {
     width: 65%;
 }
 
-/* ----------------------------------------------- Contact Form-----*/
+/* ----------------------------------------------- Contact Form -----*/
 
-.contact-info-item {
+.contact-form {
+    margin-top: 150px;
+    color: #fff;
+    background: rgba(60,60,60, 0.6);
+    width: 400px;
+    position: absolute;
+    left: 10%;
+    padding: 30px;
+}
+
+
+.contact-form-item {
     margin-bottom: 10px;
     display: block;
     clear: both;
 }
 
-.contact-info-item .key,
-.contact-info-item .value {
+.contact-form-item .key,
+.contact-form-item .value {
     padding-right: 8px;
     display: inline-block;
 }
 
-.contact-info-item .key p,
-.contact-info-item .value p {
+.contact-form-item .key p,
+.contact-form-item .value p {
     margin: 0;
 }
 
-.contact-info-item .key {
+.contact-form-item .key {
     width: 25%;
     margin-right: 19px;
     margin-top: 2px;
     vertical-align: top;
 }
 
-.contact-info-item .key p {
+.contact-form-item .key p {
     font-weight: 400;
 }
 
-.contact-info-item .value {
+.contact-form-item .value {
     position: relative;
     width: 65%;
 }
@@ -341,7 +360,7 @@ footer p {
 }
 
 .custom-control-label::before {
-    left : 5px;
+    left: 5px;
 }
 
 .custom-control-label {
@@ -361,7 +380,7 @@ button[type="submit"] {
     background-color: rgb(95, 142, 145);
 }
 
-/* ------------------------------------Work History */
+/* ------------------------------------ Work History */
 
 .history-heading {
     color: #3b3b38;
@@ -409,7 +428,7 @@ button[type="submit"] {
     margin-bottom: 30px;
 }
 
-/* ------------------------------------skill section */
+/* ------------------------------------ skill section */
 
 .content-container {
     margin-left: auto;
@@ -428,7 +447,7 @@ img {
     height: 80px;
 }
 
-/* ------------------------------------ortfolio section */
+/* ----------------------------------- Portfolio section */
 
 .portfolio {
     text-align: center;
@@ -436,8 +455,8 @@ img {
     padding: 20px;
 }
 
-.portfolio > img {
+.portfolio>img {
     width: 350px;
     height: 228px;
-    
+
 }

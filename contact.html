@@ -16,18 +16,14 @@
 
 
 <body>
-    <div class="container-xl">
+    
         <header class="wallpaper">
             <div class="row no-gutters">
-
                 <div class="col-md-2 site-colour outer">
-
                     <div class="inner"> Barry Marples
-
                     </div>
                 </div>
                 <div class="col-md-6">
-
                     <ul id="nav" class="list-inline menucontainer">
                         <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
                             <a href="index.html" class="hvr-underline-from-center"><i class="fas fa-home"
@@ -47,20 +43,15 @@
                         </li>
                     </ul>
                 </div>
-
                 <div class="d-none d-sm-block">
-                    <div id="graphic"></div>
+                    <div id="header-graphic"></div>
 
                 </div>
             </div>
-
         </header>
-
-
-
-        <section class="container-fluid">
+        <section class="container-fluid content-section">
             <div class="row">
-                <div class="col-lg-9">
+                <div class="col-lg-6">
                     <div class="row uppercase">
                         <h2 class="main-heading">contact</h2>
                     </div>
@@ -70,49 +61,93 @@
                             <p>I'm junior Full Stack Developer next project.</p>
                         </div>
                         <div class="col-lg-6">
-                            <h3 class="sub-heading">How dit?</h3>
-                            <p>I folle.</p>
+                            <div class="col-lg-3 contrast-panel">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h3 class="sub-heading uppercase">Personal Info</h3>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="personal-info-item">
+                                            <div class="key">
+                                                <p class="uppercase">
+                                                    Name:
+                                                </p>
+                                            </div>
+                                            <div class="value">
+                                                <p>Barry Marples</p>
+                                            </div>
+                                        </div>
+                                        <div class="personal-info-item">
+                                            <div class="key">
+                                                <p class="uppercase">
+                                                    Address:
+                                                </p>
+                                            </div>
+                                            <div class="value">
+                                                <p>6 Trem Y Wyddfa, Gwynned, LL48 6HB</p>
+                                            </div>
+                                        </div>
+                                        <div class="personal-info-item">
+                                            <div class="key">
+                                                <p class="uppercase">
+                                                    Phone:
+                                                </p>
+                                            </div>
+                                            <div class="value">
+                                                <p>07926 470 946</p>
+                                            </div>
+                                        </div>
+                                        <div class="personal-info-item">
+                                            <div class="key">
+                                                <p class="uppercase">
+                                                    Email:
+                                                </p>
+                                            </div>
+                                            <div class="value">
+                                                <p>BarryMarples@gmail.com</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="col-lg-3 d-none d-lg-block section-column">
-                    <div id="right-triangle"></div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-3 d-none d-lg-block section-column">
-                    <div id="left-triangle-long"></div>
-                </div>
-
-                <div class="col-lg-9 contrast-panel">
+                <div class="col-lg-6 contrast-panel">
                     <div class="row">
                         <div class="col-12">
                             <h3 class="sub-heading uppercase">contact information</h3>
-
-                            <form>
-
-                                <div class="contact-info-item">
+                            <form class="contact_form" method="post" action="#">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label for="name"><p>Name</p> </label>
+                                        <label for="name">
+                                            <p>Name</p>
+                                        </label>
                                     </div>
                                     <div class="value">
                                         <input type="text" height="15px" class="form-control" id="name"
                                             placeholder="Enter your name here ..." required>
                                     </div>
                                 </div>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label for="email"><p>Email</p></label>
+                                        <label for="email">
+                                            <p>Email</p>
+                                        </label>
                                     </div>
                                     <div class="value">
                                         <input type="text" class="form-control" id="email"
                                             placeholder="Enter your Email here ..." required>
                                     </div>
                                 </div>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label for="phone"><p>Phone Number</p></label>
+                                        <label for="phone">
+                                            <p>Phone Number</p>
+                                        </label>
                                     </div>
                                     <div class="value">
                                         <input type="text" class="form-control" id="phone"
@@ -120,37 +155,55 @@
                                     </div>
                                 </div>
                                 <h3 class="sub-heading uppercase"> project information</h3>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label for="website"><p>Website</p></label>
+                                        <label for="website">
+                                            <p>Website</p>
+                                        </label>
                                     </div>
                                     <div class="value">
                                         <input type="text" class="form-control" id="website"
                                             placeholder="Enter your website address here (if applicable)...">
                                     </div>
                                 </div>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label><p>services required</p></label>
+                                        <label>
+                                            <p>services required</p>
+                                        </label>
                                     </div>
                                     <div class="value">
-                                        <div class="row"> 
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input" id="webDesign">
-                                                <label class="custom-control-label" for="webDesign"><p>Web design</p></label></div>
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input" id="e-commerce">
-                                                <label class="custom-control-label" for="e-commerce"><p>E-commerce site</p></label></div>
+                                        <div class="row">
+                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                    id="webDesign">
+                                                <label class="custom-control-label" for="webDesign">
+                                                    <p>Web design</p>
+                                                </label></div>
+                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                    id="e-commerce">
+                                                <label class="custom-control-label" for="e-commerce">
+                                                    <p>E-commerce site</p>
+                                                </label></div>
                                         </div>
                                         <div class="row">
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input" id="SEO">
-                                                <label class="custom-control-label" for="SEO"><p>Search engine</p></label></div>
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input" id="logoDesign">
-                                                <label class="custom-control-label" for="logoDesign"><p>Logo Design</p></label></div>
+                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                    id="SEO">
+                                                <label class="custom-control-label" for="SEO">
+                                                    <p>Search engine</p>
+                                                </label></div>
+                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                    id="logoDesign">
+                                                <label class="custom-control-label" for="logoDesign">
+                                                    <p>Logo Design</p>
+                                                </label></div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label for="projectoverview"><p>Project Overview</p></label>
+                                        <label for="projectoverview">
+                                            <p>Project Overview</p>
+                                        </label>
                                     </div>
                                     <div class="value">
                                         <div class="form-group">
@@ -161,9 +214,11 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="key">
-                                        <label for="launchDate"><p>Launch date</p></label>
+                                        <label for="launchDate">
+                                            <p>Launch date</p>
+                                        </label>
                                     </div>
                                     <div class="value">
                                         <input type="text" class="form-control" id="launchDate"
@@ -171,7 +226,7 @@
                                             required>
                                     </div>
                                 </div>
-                                <div class="contact-info-item">
+                                <div class="contact-form-item">
                                     <div class="form-row text-center">
                                         <div class="col">
                                             <button type="submit" class="btn form-control"> Let's Talk</button>
@@ -184,11 +239,7 @@
                     </div>
                 </div>
             </div>
-
         </section>
-
-
-
         <footer class="container-fluid">
             <div class="row">
                 <div class="col-md-8">
@@ -235,8 +286,7 @@
                 </div>
             </div>
         </footer>
-    </div>
-
+    
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
