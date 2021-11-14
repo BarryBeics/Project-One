@@ -15,188 +15,172 @@
 </head>
 
 <body>
-    
-        <header class="wallpaper">
-            <div class="row no-gutters">
-                <div class="col-md-2 site-colour outer">
-                    <div class="inner"> Barry Marples
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <ul id="nav" class="list-inline menucontainer">
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="index.html" class="hvr-underline-from-center"><i class="fas fa-home"
-                                    aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="resume.html" class="hvr-underline-from-center"><i
-                                    class="fas fa-user-graduate selected" aria-hidden="true"></i><span>Resume</span></a>
-                        </li>
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="portfolio.html" class="hvr-underline-from-center"><i class="fa fa-briefcase"
-                                    aria-hidden="true"></i><span>Portfolio</span></a>
-                        </li>
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="contact.html" class="hvr-underline-from-center"><i class="fab fa-wpforms"
-                                    aria-hidden="true"></i><span>Contact</span></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-none d-sm-block">
-                    <div id="header-graphic"></div>
+    <header class="header-wallpaper">
+        <div class="row no-gutters">
+            <!--Left block containing name, text displayed vertically -->
+            <div class="col-md-2 site-colour outer">
+                <div class="inner"> Barry Marples
                 </div>
             </div>
-        </header>
-        <section class="container-fluid content-section">
-            <div class="row uppercase">
-                <h2 class="main-heading">resume</h2>
+            <!-- Navigation bar -->
+            <div class="col-md-6">
+                <ul id="nav" class="list-inline menucontainer">
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="index.html" class="hvr-underline-from-center"><i class="fas fa-home"
+                                aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="resume.html" class="hvr-underline-from-center"><i class="fas fa-user-graduate selected"
+                                aria-hidden="true"></i><span>Resume</span></a>
+                    </li>
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="portfolio.html" class="hvr-underline-from-center"><i class="fa fa-briefcase"
+                                aria-hidden="true"></i><span>Portfolio</span></a>
+                    </li>
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="contact.html" class="hvr-underline-from-center"><i class="fab fa-wpforms"
+                                aria-hidden="true"></i><span>Contact</span></a>
+                    </li>
+                </ul>
             </div>
-
-
-            <div class="row">
-                <div class="col-lg-8">
-
-
-                    <h3 class="sub-heading">Tools I Use</h3>
-                    <p>As you can see from the logo's below I currently have experince with the following
-                        technologies. I allways strive to develop my skill set. </p>
-                    <div class="content-container">
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-javascript.png" alt="javascript logo">
-                            <h4>Javascript</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-bootstrap.png" alt="bootstrap logo">
-                            <h4>Bootstrap</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-css3.png" alt="css3 logo">
-                            <h4>CSS3</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-django.png" alt="django logo">
-                            <h4>Django</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-html5.png" alt="html5 logo">
-                            <h4>HTML5</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-react.png" alt="react logo">
-                            <h4>React</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-python.png" alt="python logo">
-                            <h4>Python</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-pandas.png" alt="pandas logo">
-                            <h4>Pandas</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-mongodb.png" alt="mongodb logo">
-                            <h4>MongoDB</h4>
-                        </div>
-                        <div class="skill">
-                            <img src="/Project-One/assets/images/skills-github.png" alt="github logo">
-                            <h4>GitHub</h4>
+            <!-- Character at his desk, hidden on smaller screens -->
+            <div class="d-none d-sm-block">
+                <div id="header-graphic"></div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid content-section">
+        <!-- Page title displayed in this first row -->
+        <div class="row uppercase">
+            <h2 class="main-heading">resume</h2>
+        </div>
+        <div class="row">
+            <!-- First of 2 columns taking up 25% of the screen-->
+            <div class="col-md-3">
+                <h3 class="sub-heading">Tools I Use</h3>
+                <p>As you can see from the logo's below I currently have experince with the following
+                    technologies. I allways strive to develop my skill set. </p>
+            </div>
+            <!-- First of 2 columns taking up 75% of the screen-->
+            <div class="col-md-9">
+                <div class="row">
+                    <!-- First of 2 sub to hold skills logos-->
+                    <div class="col-md-8 col-sm-6">
+                        <div class="content-container">
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-javascript.png" alt="javascript logo">
+                                <h4>Javascript</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-bootstrap.png" alt="bootstrap logo">
+                                <h4>Bootstrap</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-css3.png" alt="css3 logo">
+                                <h4>CSS3</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-django.png" alt="django logo">
+                                <h4>Django</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-html5.png" alt="html5 logo">
+                                <h4>HTML5</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-react.png" alt="react logo">
+                                <h4>React</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-python.png" alt="python logo">
+                                <h4>Python</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-pandas.png" alt="pandas logo">
+                                <h4>Pandas</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-mongodb.png" alt="mongodb logo">
+                                <h4>MongoDB</h4>
+                            </div>
+                            <div class="skill">
+                                <img src="/Project-One/assets/images/skills-github.png" alt="github logo">
+                                <h4>GitHub</h4>
+                            </div>
                         </div>
                     </div>
+                    <!-- Second of 2 sub columns to hold Work History -->
+                    <div class="col-md-4 col-sm-6 contrast-panel">
+                        <h3 class="sub-heading uppercase">Work history</h3>
+                        <div class="history-items">
+                            <div class="timeline-item" data-dates="10/2021 - Present">
+                                <h3>Code Institute</h3>
+                                <p>Student</p>
+                            </div>
+                            <div class="timeline-item" data-dates="04/2018 - 10/2021">
+                                <h3>Beics Brenin - Coed Y Brenin</h3>
+                                <p>Store/Hire center Manager </p>
+                            </div>
 
-
-
-
-                </div>
-                <div class="col-lg-4 contrast-panel">
-
-                    <div class="row">
-
-                        <div class="col">
-                            <h3 class="sub-heading uppercase">Work history</h3>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col">
-                            <div class="history-items">
-                                <div class="timeline-item" data-dates="10/2021 - Present">
-                                    <h3>Code Institute</h3>
-                                    <p>Student</p>
-                                </div>
-                                <div class="timeline-item" data-dates="04/2018 - 10/2021">
-                                    <h3>Beics Brenin - Coed Y Brenin</h3>
-                                    <p>Store/Hire center Manager </p>
-                                </div>
-
-                                <div class="timeline-item" data-dates="05/2011 - 04/2018">
-                                    <h3>Purple Moose Brewery Ltd</h3>
-                                    <p>Opperations Manager</p>
-                                </div>
-                                <div class="timeline-item" data-dates="02/2002 - 05/2011">
-                                    <h3>Marples Imports Ltd</h3>
-                                    <p>Entrepreneur</p>
-                                </div>
+                            <div class="timeline-item" data-dates="05/2011 - 04/2018">
+                                <h3>Purple Moose Brewery Ltd</h3>
+                                <p>Opperations Manager</p>
+                            </div>
+                            <div class="timeline-item" data-dates="02/2002 - 05/2011">
+                                <h3>Marples Imports Ltd</h3>
+                                <p>Entrepreneur</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-
-
-
-
-
-
-
-
-        </section>
-        <footer class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <h5 class="uppercase general-sub">my socials</h5>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/barry-marples-developer/" target="_blank"
-                                class="footer-icon linkedin hvr-pop">
-                                <i class="fab fa-linkedin" aria-hidden="true"></i>
-                                <span class="sr-only">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/barry.marples" target="_blank"
-                                class="footer-icon facebook hvr-pop">
-                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/BarryMarples" target="_blank"
-                                class="footer-icon twitter hvr-pop">
-                                <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/BarryBeics" target="_blank" class="footer-icon github hvr-pop">
-                                <i class="fab fa-github-square" aria-hidden="true"></i>
-                                <span class="sr-only">Github</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <p class="inline-block">
-                        For a printable version of my CV? Download it here.
-                        <a href="assets/pdf/Barry Marples CV 2020.pdf" target="_blank"
-                            class="footer-icon cv-pdf hvr-pop">
-                            <i class="fa fa-download" aria-hidden="true"></i>
-                            <span class="sr-only">Download link.</span>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h5 class="uppercase general-sub">my socials</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/barry-marples-developer/" target="_blank"
+                            class="footer-icon linkedin hvr-pop">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
                         </a>
-                    </p>
-                </div>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/barry.marples" target="_blank"
+                            class="footer-icon facebook hvr-pop">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/BarryMarples" target="_blank" class="footer-icon twitter hvr-pop">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/BarryBeics" target="_blank" class="footer-icon github hvr-pop">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            <span class="sr-only">Github</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-    
+            <div class="col-md-4">
+                <p class="inline-block">
+                    For a printable version of my CV? Download it here.
+                    <a href="assets/pdf/Barry Marples CV 2020.pdf" target="_blank" class="footer-icon cv-pdf hvr-pop">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">

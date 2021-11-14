@@ -14,279 +14,266 @@
     <title>Barry Marples</title>
 </head>
 
-
 <body>
-    
-        <header class="wallpaper">
-            <div class="row no-gutters">
-                <div class="col-md-2 site-colour outer">
-                    <div class="inner"> Barry Marples
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <ul id="nav" class="list-inline menucontainer">
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="index.html" class="hvr-underline-from-center"><i class="fas fa-home"
-                                    aria-hidden="true"></i><span>Home</span></a>
-                        </li>
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="resume.html" class="hvr-underline-from-center"><i class="fas fa-user-graduate"
-                                    aria-hidden="true"></i><span>Resume</span></a>
-                        </li>
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="portfolio.html" class="hvr-underline-from-center"><i class="fa fa-briefcase"
-                                    aria-hidden="true"></i><span>Portfolio</span></a>
-                        </li>
-                        <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
-                            <a href="contact.html" class="hvr-underline-from-center"><i class="fab fa-wpforms selected"
-                                    aria-hidden="true"></i><span>Contact</span></a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="d-none d-sm-block">
-                    <div id="header-graphic"></div>
-
+    <header class="header-wallpaper">
+        <div class="row no-gutters">
+            <!--Left block containing name, text displayed vertically -->
+            <div class="col-md-2 site-colour outer">
+                <div class="inner"> Barry Marples
                 </div>
             </div>
-        </header>
-        <section class="container-fluid content-section">
-            <div class="row">
-                <div class="col-lg-6">
-                    <div class="row uppercase">
-                        <h2 class="main-heading">contact</h2>
-                    </div>
-                    <div class="row">
-                        <div class="col-lg-6">
-                            <h3 class="sub-heading">What o?</h3>
-                            <p>I'm junior Full Stack Developer next project.</p>
+            <!-- Navigation bar -->
+            <div class="col-md-6">
+                <ul id="nav" class="list-inline menucontainer">
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="index.html" class="hvr-underline-from-center"><i class="fas fa-home"
+                                aria-hidden="true"></i><span>Home</span></a>
+                    </li>
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="resume.html" class="hvr-underline-from-center"><i class="fas fa-user-graduate"
+                                aria-hidden="true"></i><span>Resume</span></a>
+                    </li>
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="portfolio.html" class="hvr-underline-from-center"><i class="fa fa-briefcase"
+                                aria-hidden="true"></i><span>Portfolio</span></a>
+                    </li>
+                    <li class="col-6 col-md-3 site-colour list-inline-item menuitem">
+                        <a href="contact.html" class="hvr-underline-from-center"><i class="fab fa-wpforms selected"
+                                aria-hidden="true"></i><span>Contact</span></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Character at his desk, hidden on smaller screens -->
+            <div class="d-none d-sm-block">
+                <div id="header-graphic"></div>
+            </div>
+        </div>
+    </header>
+    <section class="container-fluid content-section">
+        <!-- Page title displayed in this first row -->
+        <div class="row uppercase">
+            <h2 class="main-heading">contact</h2>
+        </div>
+        <div class="row">
+            <!-- Text Area -->
+            <div class="col-lg-4">
+                <h3 class="sub-heading">What o?</h3>
+                <p>I'm junior Full Stack Developer next project.</p>
+                <!-- Personal Info -->
+                <div class="col contrast-panel">
+                    <h3 class="sub-heading uppercase">Personal Info</h3>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Name:
+                            </p>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="col-lg-3 contrast-panel">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h3 class="sub-heading uppercase">Personal Info</h3>
-                                    </div>
+                        <div class="value">
+                            <p>Barry Marples</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Address:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>6 Trem Y Wyddfa, Gwynned, LL48 6HB</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Phone:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>07926 470 946</p>
+                        </div>
+                    </div>
+                    <div class="personal-info-item">
+                        <div class="key">
+                            <p class="uppercase">
+                                Email:
+                            </p>
+                        </div>
+                        <div class="value">
+                            <p>BarryMarples@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Contact Form -->
+            <div class="col-lg-8 contrast-panel">
+                
+                    
+                        <h3 class="sub-heading uppercase">contact information</h3>
+                        <form class="contact_form" method="post" action="#">
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label for="name">
+                                        <p>Name</p>
+                                    </label>
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="personal-info-item">
-                                            <div class="key">
-                                                <p class="uppercase">
-                                                    Name:
-                                                </p>
-                                            </div>
-                                            <div class="value">
-                                                <p>Barry Marples</p>
-                                            </div>
-                                        </div>
-                                        <div class="personal-info-item">
-                                            <div class="key">
-                                                <p class="uppercase">
-                                                    Address:
-                                                </p>
-                                            </div>
-                                            <div class="value">
-                                                <p>6 Trem Y Wyddfa, Gwynned, LL48 6HB</p>
-                                            </div>
-                                        </div>
-                                        <div class="personal-info-item">
-                                            <div class="key">
-                                                <p class="uppercase">
-                                                    Phone:
-                                                </p>
-                                            </div>
-                                            <div class="value">
-                                                <p>07926 470 946</p>
-                                            </div>
-                                        </div>
-                                        <div class="personal-info-item">
-                                            <div class="key">
-                                                <p class="uppercase">
-                                                    Email:
-                                                </p>
-                                            </div>
-                                            <div class="value">
-                                                <p>BarryMarples@gmail.com</p>
-                                            </div>
-                                        </div>
+                                <div class="value">
+                                    <input type="text" height="15px" class="form-control" id="name"
+                                        placeholder="Enter your name here ..." required>
+                                </div>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label for="email">
+                                        <p>Email</p>
+                                    </label>
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="form-control" id="email"
+                                        placeholder="Enter your Email here ..." required>
+                                </div>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label for="phone">
+                                        <p>Phone Number</p>
+                                    </label>
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="form-control" id="phone"
+                                        placeholder="Enter your Phone number here ... (Optional)">
+                                </div>
+                            </div>
+                            <h3 class="sub-heading uppercase"> project information</h3>
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label for="website">
+                                        <p>Website</p>
+                                    </label>
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="form-control" id="website"
+                                        placeholder="Enter your website address here (if applicable)...">
+                                </div>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label>
+                                        <p>services required</p>
+                                    </label>
+                                </div>
+                                <div class="value">
+                                    <div class="row">
+                                        <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                id="webDesign">
+                                            <label class="custom-control-label" for="webDesign">
+                                                <p>Web design</p>
+                                            </label></div>
+                                        <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                id="e-commerce">
+                                            <label class="custom-control-label" for="e-commerce">
+                                                <p>E-commerce site</p>
+                                            </label></div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6"><input type="checkbox" class="custom-control-input" id="SEO">
+                                            <label class="custom-control-label" for="SEO">
+                                                <p>Search engine</p>
+                                            </label></div>
+                                        <div class="col-6"><input type="checkbox" class="custom-control-input"
+                                                id="logoDesign">
+                                            <label class="custom-control-label" for="logoDesign">
+                                                <p>Logo Design</p>
+                                            </label></div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                    </div>
-                </div>
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label for="projectoverview">
+                                        <p>Project Overview</p>
+                                    </label>
+                                </div>
+                                <div class="value">
+                                    <div class="form-group">
 
-                <div class="col-lg-6 contrast-panel">
-                    <div class="row">
-                        <div class="col-12">
-                            <h3 class="sub-heading uppercase">contact information</h3>
-                            <form class="contact_form" method="post" action="#">
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label for="name">
-                                            <p>Name</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <input type="text" height="15px" class="form-control" id="name"
-                                            placeholder="Enter your name here ..." required>
+                                        <textarea class="form-control" id="projectoverview" rows="3"
+                                            placeholder="Give a quick overview of the project ..." required></textarea>
                                     </div>
                                 </div>
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label for="email">
-                                            <p>Email</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <input type="text" class="form-control" id="email"
-                                            placeholder="Enter your Email here ..." required>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="key">
+                                    <label for="launchDate">
+                                        <p>Launch date</p>
+                                    </label>
+                                </div>
+                                <div class="value">
+                                    <input type="text" class="form-control" id="launchDate"
+                                        placeholder="When would you like the work completed by (approx)..." required>
+                                </div>
+                            </div>
+                            <div class="contact-form-item">
+                                <div class="form-row text-center">
+                                    <div class="col">
+                                        <button type="submit" class="btn form-control"> Let's Talk</button>
                                     </div>
                                 </div>
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label for="phone">
-                                            <p>Phone Number</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <input type="text" class="form-control" id="phone"
-                                            placeholder="Enter your Phone number here ... (Optional)">
-                                    </div>
-                                </div>
-                                <h3 class="sub-heading uppercase"> project information</h3>
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label for="website">
-                                            <p>Website</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <input type="text" class="form-control" id="website"
-                                            placeholder="Enter your website address here (if applicable)...">
-                                    </div>
-                                </div>
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label>
-                                            <p>services required</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <div class="row">
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
-                                                    id="webDesign">
-                                                <label class="custom-control-label" for="webDesign">
-                                                    <p>Web design</p>
-                                                </label></div>
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
-                                                    id="e-commerce">
-                                                <label class="custom-control-label" for="e-commerce">
-                                                    <p>E-commerce site</p>
-                                                </label></div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
-                                                    id="SEO">
-                                                <label class="custom-control-label" for="SEO">
-                                                    <p>Search engine</p>
-                                                </label></div>
-                                            <div class="col-6"><input type="checkbox" class="custom-control-input"
-                                                    id="logoDesign">
-                                                <label class="custom-control-label" for="logoDesign">
-                                                    <p>Logo Design</p>
-                                                </label></div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label for="projectoverview">
-                                            <p>Project Overview</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <div class="form-group">
+                            </div>
+                        </form>
 
-                                            <textarea class="form-control" id="projectoverview" rows="3"
-                                                placeholder="Give a quick overview of the project ..."
-                                                required></textarea>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="contact-form-item">
-                                    <div class="key">
-                                        <label for="launchDate">
-                                            <p>Launch date</p>
-                                        </label>
-                                    </div>
-                                    <div class="value">
-                                        <input type="text" class="form-control" id="launchDate"
-                                            placeholder="When would you like the work completed by (approx)..."
-                                            required>
-                                    </div>
-                                </div>
-                                <div class="contact-form-item">
-                                    <div class="form-row text-center">
-                                        <div class="col">
-                                            <button type="submit" class="btn form-control"> Let's Talk</button>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-
-                        </div>
-                    </div>
-                </div>
+                    
+                
             </div>
-        </section>
-        <footer class="container-fluid">
-            <div class="row">
-                <div class="col-md-8">
-                    <h5 class="uppercase">my socials</h5>
-                    <ul class="list-inline">
-                        <li class="list-inline-item">
-                            <a href="https://www.linkedin.com/in/barry-marples-developer/" target="_blank"
-                                class="footer-icon linkedin hvr-pop">
-                                <i class="fab fa-linkedin" aria-hidden="true"></i>
-                                <span class="sr-only">LinkedIn</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://www.facebook.com/barry.marples" target="_blank"
-                                class="footer-icon facebook hvr-pop">
-                                <i class="fab fa-facebook-square" aria-hidden="true"></i>
-                                <span class="sr-only">Facebook</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://twitter.com/BarryMarples" target="_blank"
-                                class="footer-icon twitter hvr-pop">
-                                <i class="fab fa-twitter-square" aria-hidden="true"></i>
-                                <span class="sr-only">Twitter</span>
-                            </a>
-                        </li>
-                        <li class="list-inline-item">
-                            <a href="https://github.com/BarryBeics" target="_blank" class="footer-icon github hvr-pop">
-                                <i class="fab fa-github-square" aria-hidden="true"></i>
-                                <span class="sr-only">Github</span>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <p class="inline-block">
-                        For a printable version of my CV? Download it here.
-                        <a href="assets/pdf/Barry Marples CV 2020.pdf" target="_blank"
-                            class="footer-icon cv-pdf hvr-pop">
-                            <i class="fa fa-download" aria-hidden="true"></i>
-                            <span class="sr-only">Download link.</span>
+
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h5 class="uppercase">my socials</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/in/barry-marples-developer/" target="_blank"
+                            class="footer-icon linkedin hvr-pop">
+                            <i class="fab fa-linkedin" aria-hidden="true"></i>
+                            <span class="sr-only">LinkedIn</span>
                         </a>
-                    </p>
-                </div>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/barry.marples" target="_blank"
+                            class="footer-icon facebook hvr-pop">
+                            <i class="fab fa-facebook-square" aria-hidden="true"></i>
+                            <span class="sr-only">Facebook</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/BarryMarples" target="_blank" class="footer-icon twitter hvr-pop">
+                            <i class="fab fa-twitter-square" aria-hidden="true"></i>
+                            <span class="sr-only">Twitter</span>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://github.com/BarryBeics" target="_blank" class="footer-icon github hvr-pop">
+                            <i class="fab fa-github-square" aria-hidden="true"></i>
+                            <span class="sr-only">Github</span>
+                        </a>
+                    </li>
+                </ul>
             </div>
-        </footer>
-    
+            <div class="col-md-4">
+                <p class="inline-block">
+                    For a printable version of my CV? Download it here.
+                    <a href="assets/pdf/Barry Marples CV 2020.pdf" target="_blank" class="footer-icon cv-pdf hvr-pop">
+                        <i class="fa fa-download" aria-hidden="true"></i>
+                        <span class="sr-only">Download link.</span>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
         integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
     </script>
