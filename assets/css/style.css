@@ -13,7 +13,7 @@ section {
 
 .content-section {
     clear: left;
-    /* background: url("/assets/images/work-space.png"); */
+    /* background: url("/assets/images/bg-work-space.png"); */
     background-size: cover;
     background-position: center;
     height: 900px;
@@ -217,7 +217,7 @@ footer p {
 
     #header-graphic {
         min-width: 250px;
-        background: url("../images/barry-at-desk.png");
+        background: url("../images/header-graphic.png");
         background-repeat: no-repeat;
         height: 100%;
     }
@@ -225,7 +225,7 @@ footer p {
 
 
     .wallpaper {
-        background: url("../images/wallpaper.png");
+        background: url("../images/header-wallpaper.png");
         background-repeat: repeat-x;
     }
 
@@ -235,14 +235,14 @@ footer p {
 
 #graphic {
     width: 500px;
-    background: url("../images/barry-at-desk.png");
+    background: url("../images/index-main.png");
     background-repeat: no-repeat;
-    height: 100%;
+    height: 460px;
 }
 
 #steam {
     min-width: 24px;
-    background: url("../images/steam.gif");
+    background: url("../images/index-steam.gif");
     background-repeat: no-repeat;
     background-size: 24px 24px;
 
@@ -254,13 +254,13 @@ footer p {
     left: 21px;
     height: 63px;
     width: 77px;
-    background: url("../images/talkingHead.gif");
+    background: url("../images/index-head.gif");
     background-repeat: no-repeat;
 }
 
 .header-wallpaper,
 .wallpaper {
-    background: url("../images/wallpaper.png");
+    background: url("../images/index-bg.png");
     background-repeat: repeat-x;
 }
 
