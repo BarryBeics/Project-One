@@ -3,18 +3,13 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: #464646;
-}
-
-.content-section {
-    height: 900px;
-    background-color: #f8f0df;
+    background-color: rgba(121, 180, 183);
 }
 
 /* ----------------------------------------------- Colours -----*/
 
 .site-colour {
-    background-color: rgb(121, 180, 183);
+    background-color: rgba(121, 180, 183);
 }
 
 .contrast-panel {
@@ -25,6 +20,15 @@ body {
     background: rgba(248, 240, 223, 0.3);
 }
 
+.content-section {
+    height: 900px;
+    background-color: #f8f0df;
+}
+
+.home {
+    color: #f8f0df;
+    z-index: 2;
+}
 
 .selected:before {
     color: #3b3b38;
@@ -58,17 +62,25 @@ h3,
 h4,
 h5 {
     margin: 0;
-    color: #3b3b38;
+}
+
+h1 {
+    font-size: 24px;
+    padding: 25px 0px 10px 15px;
+    font-weight: 600;
+}
+
+h2 {
+    font-size: 21px;
+    font-weight: 500;
+    color: rgb(95, 142, 145);
+    padding: 10px 0px;
 }
 
 h3 {
-    font-size: 14px;
+    font-size: 17px;
+    padding: 3px;
     color: rgb(95, 142, 145);
-}
-
-h4 {
-    font-size: 14px;
-    padding: 5px;
 }
 
 h5 {
@@ -83,20 +95,6 @@ p {
     color: #3b3b38;
 }
 
-.main-heading {
-    font-size: 20px;
-    padding: 25px 0px 10px 15px;
-    font-weight: 600;
-}
-
-.sub-heading {
-    font-size: 21px;
-    font-weight: 500;
-    color: rgb(95, 142, 145);
-    padding-top: 10px;
-    padding-bottom: 15px;
-}
-
 .uppercase {
     text-transform: uppercase;
 }
@@ -105,17 +103,20 @@ p {
     display: inline-block;
 }
 
+/* ------------Does this best belong here?  -----*/
 .section-column {
     padding: 0px;
     float: none;
 }
 
 /* ----------------------------------------------- Header -----*/
-.inner {
+
+.name-inner {
     text-transform: uppercase;
-    font-size: 1.5rem;
-    padding: 0.5rem;
+    font-size: 24px;
+    padding: 24px 28px 14px 28px;
     text-align: center;
+    color: #3b3b38;
 }
 
 .list-inline-item:not(:last-child) {
@@ -195,7 +196,7 @@ footer p {
 /* ----------------------------------------------- Media Queries -----*/
 
 @media only screen and (min-width: 768px) {
-    .outer {
+    .name-outer {
         writing-mode: tb-rl;
         width: 50px;
         display: flex;
@@ -203,12 +204,12 @@ footer p {
         justify-content: flex-end;
     }
 
-    .inner {
+    .name-inner {
         transform: rotate(180deg);
         text-transform: uppercase;
-        font-size: 1.5rem;
+        font-size: 24px;
+        padding: 24px 28px 23px 28px;
         transition: transform 1s ease-in-out;
-        padding: 1.5rem;
     }
 
     #header-graphic {
@@ -249,7 +250,7 @@ footer p {
     background: url("../images/index-main.png");
     background-repeat: no-repeat;
     height: 519px;
-    margin: 95px auto;
+    margin: -6px auto 9px auto;
 }
 
 .steam {
