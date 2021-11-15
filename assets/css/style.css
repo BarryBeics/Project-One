@@ -3,6 +3,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
+    color: #3b3b38;
     background-color: rgba(121, 180, 183);
 }
 
@@ -14,6 +15,8 @@ body {
 
 .contrast-panel {
     background: rgba(60,60,60, 0.1);
+    padding-bottom: 20px;
+    margin-bottom: 25px;
 }
 
 .light-contrast-panel {
@@ -21,7 +24,6 @@ body {
 }
 
 .content-section {
-    height: 900px;
     background-color: #f8f0df;
 }
 
@@ -92,8 +94,11 @@ h5 {
 p {
     font-size: 15px;
     font-weight: 200;
-    color: #3b3b38;
+    
 }
+ .col {
+    padding-right: 15px;
+    padding-left: 15px;}
 
 .uppercase {
     text-transform: uppercase;
@@ -101,12 +106,18 @@ p {
 
 .inline-block {
     display: inline-block;
+    padding-top: 10px;
 }
 
 /* ------------Does this best belong here?  -----*/
 .section-column {
     padding: 0px;
     float: none;
+}
+
+.center {
+    margin: 0px auto;
+    text-align: center;
 }
 
 /* ----------------------------------------------- Header -----*/
@@ -150,7 +161,7 @@ p {
 }
 
 .menuitem a i {
-    padding-top: 22px;
+    padding-top: 18px;
     display: block;
     color: #f8f0df;
     font-size: 22px;
@@ -190,7 +201,7 @@ footer p {
     color: #f8f0df;
     text-align: center;
     padding: 7px 20px;
-    width: 120px;
+    width: 100px;
 }
 
 /* ----------------------------------------------- Media Queries -----*/
@@ -235,6 +246,7 @@ footer p {
         background: url("../images/index-bg.png");
         background-repeat: repeat-x;
         min-height: 400px;
+        background-color: rgba(121, 180, 183);
     }
     
     }
@@ -277,7 +289,7 @@ footer p {
 /* ----------------------------------------------- Personal Info -----*/
 
 .personal-info-item {
-    margin-bottom: 38px;
+    margin-bottom: 24px;
     display: block;
     clear: both;
 }
@@ -302,7 +314,7 @@ footer p {
 }
 
 .personal-info-item .key p {
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .personal-info-item .value {
@@ -338,6 +350,7 @@ footer p {
 .contact-form-item .key p,
 .contact-form-item .value p {
     margin: 0;
+    font-size: 14px;
 }
 
 .contact-form-item .key {
@@ -401,8 +414,13 @@ button[type="submit"] {
 }
 
 .timeline-item p {
-    padding: 0;
+    padding: 0px 12px;
     margin: 0;
+    font-size: 14px;
+}
+
+.timeline-item h3 {
+    padding-bottom: 10px;
 }
 
 .timeline-item:before {
@@ -411,7 +429,7 @@ button[type="submit"] {
     left: 2.5em;
     top: 2em;
     display: block;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 0.8em;
     padding: 0;
     margin: 0;
@@ -422,7 +440,7 @@ button[type="submit"] {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.5em;
+    top: 30px;
     position: absolute;
     left: -6px;
     border-radius: 12px;
@@ -435,13 +453,6 @@ button[type="submit"] {
 }
 
 /* ------------------------------------ skill section */
-
-.content-container {
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-}
-
 .skill {
     text-align: center;
     display: inline-block;

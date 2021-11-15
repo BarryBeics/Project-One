@@ -12,7 +12,7 @@ This website is the personal web development site for Barry Marples. As a junior
 
 <h2 align="center"><img src="./readme-docs/portfolio-barry-marples.png"></h2>
 
-## User Experience (UX)mkdir
+## User Experience (UX)
 
 -   ### User stories
 
@@ -47,7 +47,7 @@ This website is the personal web development site for Barry Marples. As a junior
 of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of the character.
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](./readme-docs/wireframe-desktop-index.png)
+    -   Home Page Wireframe - [View](./readme-docs/)
 
     -   Mobile Wireframe - [View](https://github.com/)
 
