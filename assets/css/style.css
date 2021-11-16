@@ -20,13 +20,6 @@ body {
     border-radius: 8px;
 }
 
-.light-contrast-panel {
-    background: rgb(248, 240, 223);
-    border-radius: 8px;
-    margin-top: -58px;
-    margin-bottom: 15px;
-}
-
 .content-section {
     background-color: #f8f0df;
     min-height: 900px;
@@ -241,7 +234,7 @@ footer p {
 
 
 }
-
+/* ----------- Everything except Mobile size screen -----*/
 @media only screen and (min-width: 576px) { 
 
     .index-wallpaper {
@@ -255,7 +248,15 @@ footer p {
         color: #f8f0df;
         z-index: 2;
     }
-    
+
+    .light-contrast-panel {
+        background: rgb(248, 240, 223);
+        border-radius: 8px;
+        margin-top: -58px;
+        margin-bottom: 15px;
+    }
+
+    /* ----------- Mobile only  -----*/
     }
     @media only screen and (max-width: 576px) { 
 .mobile-content-section {
