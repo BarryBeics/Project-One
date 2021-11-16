@@ -1,16 +1,17 @@
 
-
-
-
-https://www.fabiofranchino.com/blog/vertical-text-with-css/
-
-<h1 align="center">Barry Marples Personal Website</h1>
+<h1 align="center">Barry Marples Personal Website
+<br />
 
 [View the live project here.](https://barrybeics.github.io/Project-One/)
 
-This website is the personal web development site for Barry Marples. As a junior developer this site will serve as a space to showcase work so that prospective employers and collaborators can see if Barry is the man for there next big project and then they can make contact.
+</h1>
+
+This website is the personal web development site for Barry Marples. As a junior developer this site will serve as a space to showcase work so that prospective employers and collaborators can see if Barry is the man for there next big project.
+<br />
 
 <h2 align="center"><img src="./readme-docs/portfolio-barry-marples.png"></h2>
+
+<br />
 
 ## User Experience (UX)
 
@@ -35,7 +36,7 @@ This website is the personal web development site for Barry Marples. As a junior
         3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
 
 
-
+<br /><br />
 
 -   ### Design
     -   #### Colour Scheme
@@ -45,13 +46,20 @@ This website is the personal web development site for Barry Marples. As a junior
     -   #### Imagery
         -   This simple clean site design only contains one images of a character of Barry busy working at his desk. This imaged is overlaid with 2 animated gifs. 
 of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of the character.
+
+<br /><br />
+
 *   ### Wireframes
 
-    -   Home Page Wireframe - [View](./readme-docs/)
+    -   The wireframes for this site were produced in Balsamiq (https://balsamiq.com/). Wire frames were created for Desktop, Tablet & mobile respectivaly. 
+    you will see the final site changed due to the concept not working well in reality. 
+    
+        This required so reconfiruation of the layout using the bootstrap elemnts. 
+    
+        Wireframe - [View](WIREFRAMES.md)
 
-    -   Mobile Wireframe - [View](https://github.com/)
-
-    -   Contact Us Page Wireframe - [View](https://github.com/)
+    
+<br /><br /> 
 
 ## Features
 
@@ -88,3 +96,6 @@ of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of 
     - Illustrator was used to animate the steam on the coffee and the talking head gifs.
 1. [Balsamiq:](https://balsamiq.com/)
     - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
+
+
+<br /><br />

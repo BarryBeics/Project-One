@@ -14,25 +14,22 @@ body {
 }
 
 .contrast-panel {
-    background: rgba(60,60,60, 0.1);
+    background: rgba(60,60,60, 0.2);
     padding-bottom: 20px;
     margin-bottom: 25px;
     border-radius: 8px;
 }
 
 .light-contrast-panel {
-    background: rgba(248, 240, 223, 0.3);
+    background: rgb(248, 240, 223);
     border-radius: 8px;
+    margin-top: -58px;
+    margin-bottom: 15px;
 }
 
 .content-section {
     background-color: #f8f0df;
     min-height: 900px;
-}
-
-.home {
-    color: #f8f0df;
-    z-index: 2;
 }
 
 .selected:before {
@@ -251,7 +248,12 @@ footer p {
         background: url("../images/index-bg.png");
         background-repeat: repeat-x;
         min-height: 400px;
-        background-color: rgba(121, 180, 183);
+        background-color: rgb(248, 240, 223);
+    }
+
+    .home {
+        color: #f8f0df;
+        z-index: 2;
     }
     
     }
