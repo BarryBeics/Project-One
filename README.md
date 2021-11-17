@@ -6,7 +6,7 @@
 
 </h1>
 
-This website is the personal web development site for Barry Marples. As a junior developer this site will serve as a space to showcase work so that prospective employers and collaborators can see if Barry is the man for there next big project.
+This is the personal web development site for Barry Marples. As a junior developer this site will serve as a space to showcase work so that prospective employers and collaborators alike can see if Barry is right for there next big project.
 <br />
 
 <h2 align="center"><img src="./readme-docs/portfolio-barry-marples.png"></h2>
@@ -21,19 +21,17 @@ This website is the personal web development site for Barry Marples. As a junior
 
         1. As a First Time Visitor, I want to instantly understand what the site is about and if it's relevant to me.
         2. As a First Time Visitor, I want the navigation to be intuitive and simple to use.
-        3. As a First Time Visitor, I want to be able to quickly and easily gage if this person has the skills I require for my next project and that the site conveys an attitude that inspires me enough confidence so as to not hesitate to make contact.
+        3. As a First Time Visitor, I want to be able to quickly and easily gage if this person has the skills I require for my next project and that the site conveys an attitude that inspires confidence and compatence.
 	
 
     -   #### Returning Visitor Goals
 
-        1. As a Returning Visitor, I want to find information about coding challenges.
-        2. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-        3. As a Returning Visitor, I want to find community links.
+        1. As a First Time Visitor, I want to instantly understand what the site is about and if it's relevant to me.
+        2. As a First Time Visitor, I want the navigation to be intuitive and simple to use.
+        3. As a First Time Visitor, I want to be able to quickly and easily gage if this person has the skills I require for my next project and that the site conveys an attitude that inspires confidence and competence.
 
     -   #### Frequent User Goals
-        1. As a Frequent User, I want to check to see if there are any newly added challenges or hackathons.
-        2. As a Frequent User, I want to check to see if there are any new blog posts.
-        3. As a Frequent User, I want to sign up to the Newsletter so that I am emailed any major updates and/or changes to the website or organisation.
+        NEEDS FINISHING
 
 
 <br /><br />
@@ -41,8 +39,14 @@ This website is the personal web development site for Barry Marples. As a junior
 -   ### Design
     -   #### Colour Scheme
         -   The three main colours are teal, dark grey & cream. These have been selected to compliment the original graphic which features on every page of the site. 
+
+        <br />
+
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.
+
+        <br />
+
     -   #### Imagery
         -   This simple clean site design only contains one images of a character of Barry busy working at his desk. This imaged is overlaid with 2 animated gifs. 
 of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of the character.
@@ -68,6 +72,8 @@ of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of 
 -   Contact Form
 
 -   Animated gifs to and some interest to the simple clean design
+
+<br />
 
 ## Technologies Used
 
@@ -99,3 +105,54 @@ of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of 
 
 
 <br /><br />
+
+## Testing
+
+Details of all the testing can be found on the testing page [View](TESTING.md)
+
+
+## Deployment
+
+### GitHub Pages
+
+The project was deployed to GitHub Pages using the following steps...
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+    - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
+3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Master Branch".
+5. The page will automatically refresh.
+6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+
+### Forking the GitHub Repository
+
+NOT DONE YET
+
+### Making a Local Clone
+
+NOT DONE YET
+
+## Credits
+
+### Code
+
+
+-   [Bootstrap4](https://getbootstrap.com/docs/4.4/getting-started/introduction/): Bootstrap Library used throughout the project mainly to make site responsive using the Bootstrap Grid System.
+
+-   [MDN Web Docs](https://developer.mozilla.org/) : For Pattern Validation code. Code was modified to better fit my needs and to match an Irish phone number layout to ensure correct validation. Tutorial Found [Here](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input/tel#Pattern_validation)
+
+### Content
+
+-   All content was written by the developer.
+
+
+### Media
+
+-   All Images were created by the developer.
+
+### Acknowledgements
+
+-   My Mentor Precious for continuous helpful feedback.
+
+
