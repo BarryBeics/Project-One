@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -253,6 +253,7 @@ footer p {
         border-radius: 8px;
         margin-top: -58px;
         margin-bottom: 15px;
+        padding-bottom: 4px;
     }
 
     /* ----------- Mobile only  -----*/
@@ -477,9 +478,10 @@ img {
     text-align: center;
     display: inline-block;
     padding: 20px;
+    margin: 20px 20%;
 }
 
-.portfolio>img {
+.portfolio> img {
     width: 350px;
     height: 228px;
 
