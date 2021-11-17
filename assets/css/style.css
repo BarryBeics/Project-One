@@ -378,7 +378,7 @@ footer p {
 }
 
 .custom-control-input:checked~.custom-control-label::before {
-    border-color: rgb(95, 142, 145);
+    border-color: rgb(73, 110, 112);
     background-color: rgb(95, 142, 145);
 }
 
