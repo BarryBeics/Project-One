@@ -53,7 +53,6 @@ body {
 h1,
 h2,
 h3,
-h4,
 h5 {
     margin: 0;
 }
@@ -99,12 +98,6 @@ p {
 .inline-block {
     display: inline-block;
     padding-top: 10px;
-}
-
-/* ------------Does this best belong here?  -----*/
-.section-column {
-    padding: 0px;
-    float: none;
 }
 
 .center {
@@ -201,7 +194,7 @@ footer p {
 
 @media only screen and (min-width: 768px) {
     .name-outer {
-        writing-mode: tb-rl;
+        writing-mode: vertical-lr;
         width: 50px;
         display: flex;
         align-items: center;
@@ -231,6 +224,10 @@ footer p {
         background-repeat: repeat-x;
     }
 
+    #graphic {
+        margin: -16px auto 9px auto;
+    }
+
 
 }
 /* ----------- Everything except Mobile size screen -----*/
@@ -256,13 +253,23 @@ footer p {
         padding-bottom: 4px;
     }
 
-    /* ----------- Mobile only  -----*/
+   
+
+    
     }
+
+    /* ----------- Mobile only  -----*/
+
     @media only screen and (max-width: 576px) { 
 .mobile-content-section {
     background-color: #f8f0df;
 }
     }
+    @media only screen and (max-width: 768px) {
+#graphic {
+        margin: -7px auto 9px auto;
+    }
+}
 /* ----------------------------------------------- Landing Page talking character -----*/
 
 #graphic {
@@ -270,7 +277,6 @@ footer p {
     background: url("../images/index-main.png");
     background-repeat: no-repeat;
     height: 519px;
-    margin: -6px auto 9px auto;
 }
 
 .steam {
@@ -409,10 +415,6 @@ button[type="submit"] {
 
 /* ------------------------------------ Work History */
 
-.history-heading {
-    color: #3b3b38;
-    margin-bottom: 50px;
-}
 
 .timeline-item {
     padding: 3em 2em 0em 2em;
