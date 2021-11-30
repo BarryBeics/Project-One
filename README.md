@@ -38,9 +38,20 @@ This is the personal web development site for Barry Marples. As a junior develop
 
 -   ### Design
     -   #### Colour Scheme
-        -   The three main colours are teal, dark grey & cream. These have been selected to compliment the original graphic which features on every page of the site. 
+        -   The colours have been selected to compliment the original graphic which features on every page of the site. 
 
         <br />
+
+        <h2 align="center"><img src="./assets/images/header-graphic.png"><img src="./readme-docs/palette.png"></h2>
+
+        -   Kingfisher Turquoise #79b4b7 - This forms the colour of the navigation section, sitewide background, h2 & h3 tags
+        -   Home Plate #f8f0df - This is used as the background of the section area, nav & socials icons
+        -   Black Olive #3b3b38 - This used for the footer, text and the selected nav icon
+        -   Golden West #e9cf96 - This is used in the footer text
+        -   Litewood #e5decf - This is used for a contrast panels
+
+        <br />
+
 
     -   #### Typography
         -   The Montserrat font is the main font used throughout the whole website with Sans Serif as the fallback font in case for any reason the font isn't being imported into the site correctly. Montserrat is a clean font used frequently in programming, so it is both attractive and appropriate.

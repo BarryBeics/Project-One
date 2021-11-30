@@ -3,13 +3,17 @@
 body {
     font-family: 'Montserrat', sans-serif;
     color: #3b3b38;
-    background-color: rgba(121, 180, 183);
+    background-color: #79b4b7;
+}
+
+header {
+    background-color: #e9cf96 
 }
 
 /* ------------- Site wide  ----------- Colours */
 
 .site-colour {
-    background-color: rgba(121, 180, 183);
+    background-color: #79b4b7;
 }
 
 .contrast-panel {
@@ -66,19 +70,19 @@ h1 {
 h2 {
     font-size: 21px;
     font-weight: 500;
-    color: rgb(95, 142, 145);
+    color: #79b4b7;
     padding: 10px 0px;
 }
 
 h3 {
     font-size: 17px;
     padding: 3px;
-    color: rgb(95, 142, 145);
+    color: #79b4b7;
 }
 
 h5 {
     font-size: 14px;
-    color: #f8f0df;
+    color: #e9cf96;
 }
 
 p {
@@ -179,7 +183,7 @@ footer {
 
 footer p {
     font-size: 14px;
-    color: #f8f0df;
+    color: #e9cf96;
 }
 
 .footer-icon i {
@@ -376,6 +380,12 @@ footer p {
     text-align: center;
     display: inline-block;
     padding: 20px;
+}
+
+.portfolio-link {
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
 }
 
 /* ------------- contact.html ------------ Personal Info */
