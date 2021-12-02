@@ -8,14 +8,16 @@ The wireframes for this site were produced in Balsamiq (https://balsamiq.com/).
  
 Wire frames were created for Desktop, Tablet & mobile respectively.
  
-As you can see the final site changed due to the concept not working well in reality.
+As you can see the final site changed due to the concept not working as well as expected in reality.
  
 This required some reconfiguration of the layout using the bootstrap elements.
 
 
-<br />
+<br /><br />
 
 ## Desktop
+---
+
 
 -   Responsive on all device sizes
 
@@ -30,9 +32,10 @@ This required some reconfiguration of the layout using the bootstrap elements.
 
 Back to README - [View](README.md)
 
-<br />
+<br /><br />
 
 ## Tablet
+---
 
 -   Responsive on all device sizes
 
@@ -49,9 +52,11 @@ Back to README - [View](README.md)
 
 Back to README - [View](README.md)
 
-<br />
+<br /><br />
 
 ## Mobile
+---
+
 
 -   Responsive on all device sizes
 

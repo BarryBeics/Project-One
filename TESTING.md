@@ -1,130 +1,161 @@
 # Testing
-## Code Validation
+
+
+
+## 1. Code Validation
+---
 The site has been thoroughly tested. All the code has been run through the [W3C html Validator](https://validator.w3.org/) and the [W3C CSS Validator](https://jigsaw.w3.org/css-validator/).
-Then the success graphic was displayed for all pages of the site.
+
+### 1.1. HTML ###
+
+### - Home page
+
+![W3C html Validator test result](./readme-docs/html-testing-index-error.png)
+- Fixed: Illegal character in file name of the pdf document
+- Fixed: Correct file path added to footer for pdf file
+
 ![W3C html Validator test result](./readme-docs/html-testing-success.png)
+
+### - Portfolio page
+
+![W3C html Validator test result](./readme-docs/html-testing-portfolio-error.png)
+- Fixed: Removed stray end tag from line 96 of portfolio.html
+
+![W3C html Validator test result](./readme-docs/html-testing-success.png)
+
+### - Contact page
+
+![W3C html Validator test result](./readme-docs/html-testing-contact-error.png)
+- Fixed: Invalid use of a p tag inside a form label removed
+
+![W3C html Validator test result](./readme-docs/html-testing-success.png)
+
+### 1.2. CSS validation ###
+
+![W3C CSS Validator test result](./readme-docs/CSS-testing-error.png)
+- Error, Fixed by changing value to writing-mode: vertical-lr;
+
+![W3C CSS Validator test result](./readme-docs/CSS-testing-warnings.png)
+- Warning, Fixed by applying a slightly darker color to border
+
+![W3C html Validator test result](./readme-docs/CSS-testing-success.png)
+
 <br /><br />
-Website CSS validation
-NOT VALIDATED YET
-<br /><br />
 
-# Responsiveness Test
-* The responsive design tests were carried out manually whilst building the site with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and post build with [Responsive Design Checker](https://www.responsivedesignchecker.com/).
+## 2. Responsiveness Test
+---
 
-<br />
+The responsive design tests were carried out manually whilst building the site with [Google Chrome DevTools](https://developer.chrome.com/docs/devtools/) and post build with [Responsive Design Checker](https://www.responsivedesignchecker.com/).
 
-## Mobiles
+### 2.1. Mobiles ### 
+Notes:
+- iPhone5 :   Render fail, Text on form spills of the screen
+          Image fail, Portfolio images are too wide for the screen
+
+- Galaxy S5/S6/S7 & Xperia Z3/Z3 :   Render fail, Text on form spills of the form box
+                                 Image fail, Portfolio images are too wide for the screen  
+
+- Google Pixel & Nexus 5/6 :   Render fail, Text on one option stacks and doesn't display well  
+
+- Nexus 4 :   Render fail, Text on one option stacks and doesn't display well
+          Image fail, Portfolio images are too wide for the screen
+
+All the errors found have now been fixed as shown below.          
+
 |        | iPhone 5 | iPhone 6/7 Plus | Galaxy S5/S6/S7 | Xperia Z3/Z3 | Google Pixel | Nexus 4 | Nexus 5/6 |
 |--------|----------|-----------------|-----------------|--------------|--------------|---------|-----------|
-| Render |  fail    |  pass           |  fail           |  fail        |  fail        |  fail   |  fail     |
-| Images |  fail    |  pass           |  fail           |  fail        |  pass        |  fail   |  pass     |
+| Render |  pass    |  pass           |  pass           |  pass        |  pass        |  pass   |  pass     |
+| Images |  pass    |  pass           |  pass           |  pass        |  pass        |  pass   |  pass     |
 | Links  |  pass    |  pass           |  pass           |  pass        |  pass        |  pass   |  pass     |
-<br />
+        
  
-## Tablets
+### 2.2. Tablets ###
+Notes:
+- iPad Mini & Kindle Fire :   Render fail, work history text overlaps and displays poorly
+                                     
+- Nexus 7 & Nexus 9:   Render fail, Link text on portfolio page displays awkwardly
+                   Render fail, Tiny gap appears around home nav button
+
+All the errors found have now been fixed as shown below.     
+
 |        | iPad Mini | iPad Pro | Kindle Fire | Nexus 7 | Nexus 9 | Galaxy Tab 10 |
 |--------|-----------|----------|-------------|---------|---------|---------------|
-| Render |  fail     |  pass    |  fail       |  fail   |  fail   |  pass         |
+| Render |  pass     |  pass    |  pass       |  pass   |  pass   |  pass         |
 | Images |  pass     |  pass    |  pass       |  pass   |  pass   |  pass         |
 | Links  |  pass     |  pass    |  pass       |  pass   |  pass   |  pass         |
-<br />
- 
-## Desktops
+
+### 2.3. TabletsDesktops ###
+Notes:
+- 23" Desktop :   Render fail, for this size and above the content begins to loop a bit sparse
+
+All the errors found have now been fixed as shown below. 
+
 |        | 13" Desktop | 15" Desktop | 19" Desktop | 20" Desktop | 22" Desktop | 23" Desktop |
 |--------|-------------|-------------|-------------|-------------|-------------|-------------|
-| Render |  pass       |  pass       |  pass       |  pass       |  pass       |  fail       |
+| Render |  pass       |  pass       |  pass       |  pass       |  pass       |  pass       |
 | Images |  pass       |  pass       |  pass       |  pass       |  pass       |  pass       |
 | Links  |  pass       |  pass       |  pass       |  pass       |  pass       |  pass       |
-<br />
- 
+
+
 ## Browser Compatibility
 This site was tested on the following browsers with no visible issues for the user. Google Chrome, Safari and Mozilla Firefox. Appearance, functionality and responsiveness were consistent throughout for a range of device sizes and browsers.
 
- ### Testing User Stories from User Experience (UX) Section
-- #### First Time Visitor Goals
-  1. As a First Time Visitor, I want to instantly understand what the site is about and if it's relevant to me.
-      - The landing page graphic shows a man busy working away and the supporting text clarifies what the site is about.
-     
-    
-  2. As a First Time Visitor, I want the navigation to be intuitive and simple to use.
- 
-      - The user can then gain further information simply by choosing the resume or portfolio links from the navigation bar.
-      - Nowhere on the site will the user get trapped down a deadend and by required to use the browser back button as there are clear navigation options at the top of every page.
-    
-  3. As a First Time Visitor, I want to be able to quickly and easily gage if this person has the skills I require for my next project and that the site conveys an attitude that inspires confidence and competence.
-      - The user will see logos of the technologies used for simple comprehension that the developer has the relevant skills.
-      - The portfolio page showcases work so as to inspire confidence and competence in the developers abilities.
+Note: Currently on wide displays the site begins to look sparse, therefore the site should maybe have a max width set in order to hold a neat structure for the site across all devices.
 
-- #### Returning Visitor Goals
-  1. As a Returning Visitor, I want to find the best way to get in contact with the organisation with any questions I may have.
-      1. The navigation bar has the "Contact" Page.
-      2. This gives the user the opportunity to complete the form and make contact
-      3. In the footer of the site the a social media link for further information
-
- - #### Frequent User Goals
- 
- NEEDS FINISHING
- 
- 
- 
- 
-<br />
-
-### Further Testing
--   Friends and family members were asked to review the site and documentation to point out any bugs and/or user experience issues.
 <br /><br />
- 
-### Known Bugs
+
+## 3. Testing User Stories
+---
+
+## Testing User stories
+
+- As an owner, I want to showcase skills I have and give examples of previous work to attract more clients.
+  - The user can see the skills from the logo's displaed on the **Resume page**.
+  - The user can view examples of previous work on the **Portfolio page**.
+
+- As an owner, I want the possibility for propective clients and recruiters to contact me easily.
+  - The user can find a Contact Form on the **Contact Page** this is allways accessable from the top navigation via the Contact tab.
+   
+- As an owner, I want my website to be easily recognisable.
+  - When the user is navigating the site, they'll see the developer graphic at the top of every page.
+  - The user can see the developer's name in the top left corner in every moment while navigating the site.
+  - There is also a favicon that makes the website recognisable by just looking at the tab. 
+
+- As a user, I want to be able to get in touch with the developer for any reason.
+  - The user can access the **Contact Page** any time on the fixed menu on the top of every page, and from there they can complete the contact form.
+  - Alternatively the user can find the developer’s Address, Mobile & Email contact details on the **Contact Page** in the Personal Info block.
+
+- As a user, I want to be able to view skills and examples of past work.
+  - The user can see the skills from the logo's displayd on the **Resume page**.
+  - The user can view examples of previous work on the **Portfolio page**.
+
+- As a curious user, I want to know more about the developer in terms of career history.
+  - The user can eaily download a pdf of the developers CV so as to learn more about them.
+
+- As a potential client with specific project goals I want to easily communicate my project.
+  - The user can complete the contact form on the **Contact Page** which prompts them for all the essential details of there project.
+
+
+Back to README - [Back](README.md)
+
+
+
+
+<br /><br /> 
+
+## 4. Bugs
+---
+
 -   Detailed below are the errors found and actions taken to resolve them.
 
-### Home page
-![W3C html Validator test result](./readme-docs/html-testing-index-error.png)
-Fixed: Illegal character in path in pdf document
-Fixed: Correct file path added to footer for pdf file
-<br /><br />
+## Bugs 
 
-### Portfolio page
-![W3C html Validator test result](./readme-docs/html-testing-portfolio-error.png)
-Fixed: removed stay end tag from line 96 of portfolio.html
-<br /><br />
+- One of the major bugs I found during the development process was the issue of cross device compatability with the original design as seen in the wireframes.. 
+  - This was solved with some reconfiguration of the layout using the bootstrap elements.
 
-### Contact page
-![W3C html Validator test result](./readme-docs/html-testing-contact-error.png)
-Fixed: invalid use of a p tag inside a form label removed
-<br /><br />
+- When browsing the site on mobile, there was unwanted sideways scroll. 
+  - This was solved by making the images decrease in size based on the width of the screen.
 
-### Website CSS validation
-![W3C CSS Validator test result](./readme-docs/CSS-testing-error.png)
-![W3C CSS Validator test result](./readme-docs/CSS-testing-warnings.png)
-Warning 1, imported google fonts, Fixed by removing as my final choice of font Montserrat
-Warning 2, Fixed by applying a slightly darker color to border
-<br /><br />
 
-# Responsiveness Test
- 
-Note: Currently on wide displays the site begins to look sparse, therefore the site should maybe have a max width set in order to hold a neat structure for the site across all devices.
- 
-## Mobiles
- 
-iPhone5 :   Render fail, Text on form spills of the screen
-          Image fail, Portfolio images are too wide for the screen
 
-Galaxy S5/S6/S7 & Xperia Z3/Z3 :   Render fail, Text on form spills of the form box
-                                 Image fail, Portfolio images are too wide for the screen  
-
-Google Pixel & Nexus 5/6 :   Render fail, Text on one option stacks and doesn't display well  
-
-Nexus 4 :   Render fail, Text on one option stacks and doesn't display well
-          Image fail, Portfolio images are too wide for the screen
- 
-## Tablets
- 
-iPad Mini & Kindle Fire :   Render fail, work history text overlaps and displays poorly
-                                     
-Nexus 7 & Nexus 9:   Render fail, Link text on portfolio page displays awkwardly
-                   Render fail, Tiny gap appears around home nav button
- 
-## Desktop
- 
-23" Desktop :   Render fail, for this size and above the content begins to loop a bit sparse
-
+[Go back to README.md file](README.md).

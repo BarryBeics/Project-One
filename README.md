@@ -7,27 +7,27 @@ This is the personal web development site for Barry Marples. As a junior develop
 
 You can visit the deployed website [here](https://barrybeics.github.io/Project-One/).
 
----
+<br /><br />
 
 ## 1. UX
+---
 
-#### 1.1. Project Goals
+### 1.1. Project Goals ###
 
 This website has been designed for myself, so that I can build and online presence. The ultimate aim of this would be to get paid work by either personal clients or be contacted by recruiters which would be achieved when they use the contact form.
 
-#### 1.2. User Stories
+### 1.2. User Stories ###
 
 - As an owner, I want to showcase skills I have and give examples of previous work to attract more clients.
-- As an owner, I want to the possibility for propective clients and recruiters to contact me easily.
-- As an owner, I want my website to be easily recognisable through the name on the fixed navbar and the graphic in the header while the customers are navigating through the site.
+- As an owner, I want the possibility for propective clients and recruiters to contact me easily.
+- As an owner, I want my website to be easily recognisable.
 - As a user, I want to be able to get in touch with the developer for any reason.
 - As a user, I want to be able to view skills and examples of past work.
 - As a curious user, I want to know more about the developer in terms of career history.
-- As a person with specific project goals I want to be clear the developer has the relavent skills before I make contact.
-- As a regular -----
-- As a potential client, I would like to see  prices, etc.
+- As a potential client with specific project goals I want to easily communicate my project.
 
-#### 1.3. Design
+
+### 1.3. Design ###
 
 - **Colour Scheme**: The colours have been selected to compliment the original graphic which features on every page of the site. 
 
@@ -44,7 +44,7 @@ This website has been designed for myself, so that I can build and online presen
 - **Imagery**: This simple clean site design only contains one images of a character of Barry busy working at his desk. This imaged is overlaid with 2 animated gifs. 
 of a fresh steaming cup of coffee and 2. The talking mouth and blinking eyes of the character.
 
-#### 1.4. Wireframes
+### 1.4. Wireframes ###
 
 The wireframes for this site were produced in Balsamiq (https://balsamiq.com/). Wire frames were created for Desktop, Tablet & mobile respectivaly. 
 you will see the final site changed due to the concept not working well as expected in reality. 
@@ -53,11 +53,12 @@ This required some reconfiruation of the layout using the bootstrap elements.
     
 Wireframe - [View](WIREFRAMES.md)
 
----
+<br /><br />
 
 ## 2. Features
+---
 
-### 2.1. Existing features
+### 2.1. Existing features ###
 
 **The Header** includes:
 
@@ -97,23 +98,24 @@ Animated graphic showing the developer hard at work, this will disapear on small
 
 **Favicon**: allows the user to identify the site by just seeing the icon on the tab.
 
-### 2.2. Features left to implement in the future
+### 2.2. Features left to implement in the future ###
 
 - The form should be  submit the forms and send a comfirmation email.
 - Add a section with testimonials.
 - Add future completed projects to the portfolio page.
 - Add skill logos to the resume page as the are aquired during the course.
 
----
+<br /><br />
 
 ## 3. Technologies used
+---
 
-### Languages Used
+### 3.1. Languages Used ###
 
 -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
 -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
-### Frameworks, Libraries & Programs Used
+### 3.2. Frameworks, Libraries & Programs Used ###
 
 - [Bootstrap 4.4.1:](https://getbootstrap.com/docs/4.4/getting-started/introduction/) - Bootstrap was used to handle the responsive layout of the website.
 - [Hover.css:](https://ianlunn.github.io/Hover/) - Hover.css was used on the navigation buttons with the underline-from-center effect and the Social Media icons in the footer pop was used for a response while being hovered over.
@@ -125,13 +127,18 @@ Animated graphic showing the developer hard at work, this will disapear on small
 - [Illustrator:](https://www.adobe.com/ie/products/illustrator.html) - Illustrator was used to animate the steam on the coffee and the talking head gifs.
 - [Balsamiq:](https://balsamiq.com/) - Balsamiq was used to create the [wireframes](https://github.com/) during the design process.
 
+
+<br /><br />
+
 ## 4. Testing
+---
 
 The testing process can be seen [here](TESTING.md).
 
----
+<br /><br />
 
 ## 5. Deployment
+---
 
 **To deploy the project**
 
@@ -156,9 +163,10 @@ To clone this project from GitHub:
 5. Now press **Enter** to create your local clone of this project
 
 
----
+<br /><br />
 
 ## 6. Credits
+---
 
 ### 6.1. Content
 Most of the text in this site was made up by myself for this project. ???
