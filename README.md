@@ -20,9 +20,10 @@ This website has been designed for myself, so that I can build an online presenc
  
 - As an owner, I want to showcase skills I have and give examples of previous work to attract more clients.
 - As an owner, I want the possibility for prospective clients and recruiters to contact me easily.
-- As an owner, I want my website to be easily recognisable.
 - As a user, I want to be able to get in touch with the developer for any reason.
 - As a user, I want to be able to view skills and examples of past work.
+- As a user, I want to be able to see the developers social media presence.
+- As a recuiter, I want to easily get a copy of the developers CV.
 - As a curious user, I want to know more about the developer in terms of career history.
 - As a potential client with specific project goals I want to easily communicate my project.
  
@@ -146,20 +147,39 @@ The testing process can be seen [here](TESTING.md).
 This project is hosted in GitHub Pages
  
 1. Once your viewing the project’s repository on GitHub select **Settings** from just above the green Gitpod button.
+
+![Deployment Settings](./readme-docs/deployment-share-repository.png)
+
 2. From the left hand side navigation go down and click on **Pages** link.
+
+![Deployment Pages](./readme-docs/deployment-share-pages.png)
+
 3. Inside that section, click on the drop-down menu under **Source** and select **Branch: Main**.
 4. Click **Save** and the website is now deployed.
+
+![Deployment Save](./readme-docs/deployment-share-save.png)
+
 5. The link to the webpage appears in the green box above where you clicked **Save**.
  
 Only one branch has been used for this project.
- 
+
+
+<br /><br />
+
+
 **To run the project locally**
  
 To clone this project from GitHub:
  
 1. Once you navigate the main page of project’s repository on GitHub, above the list of files click **Code**
 2. This opens a view showing the url for the project click the copy icon to get the full repository address.
+
+![Clone Copied](./readme-docs/deployment-clone-copied.png)
+
 3. Open Terminal and ensure to navigate to the folder where you want to place the cloned project.
+
+![Clone Terminal](./readme-docs/deployment-clone-terminal.png)
+
 4. Type **git clone** and now paste the url you copied earlier.
 5. Now press **Enter** to create your local clone of this project
  
